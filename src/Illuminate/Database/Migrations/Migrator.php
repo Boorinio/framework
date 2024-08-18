@@ -437,6 +437,7 @@ class Migrator
      * @param  object  $migration
      * @param  string  $name
      * @param  string  $method
+     * @param int|null $batch
      * @return array
      */
     protected function getQueries($migration, $name, $method, $batch)

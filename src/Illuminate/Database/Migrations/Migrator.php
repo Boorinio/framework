@@ -414,6 +414,7 @@ class Migrator
      *
      * @param  string $file
      * @param  string  $method
+     * @param  int|null $batch
      * @return void
      */
     protected function pretendToRun($file, $method, $batch = null)
